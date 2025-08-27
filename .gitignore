@@ -2,3 +2,35 @@
 .idea/
 *.iml
 misc.xml
+
+# Python
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments and uv
+.venv/
+venv/
+.uv/
+.uv_cache/
+
+# Node
+node_modules/
+.next/
+*.log
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
