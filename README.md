@@ -1,10 +1,11 @@
-# bugbox
+# BugBox
 
-## Tooling Setup
+LLM-powered testing sidekick.
 
-- Python 3.13.6
-- Node.js 24.5.0
-- Terraform 1.12.2
+## Folder Structure
 
-The Python package lives in [`bugbox/`](bugbox/) and uses [uv](https://github.com/astral-sh/uv) for development. See the [Tech Baseline](context/Tech%20Baseline.md) for more details.
+- `bugbox/` – Python package.
+- `frontend/` – Next.js app for the landing site, sandbox, and docs.
+- `backend/` – API layer built as a Cloudflare Worker.
+- `context/` – Internal docs, including the [Tech Baseline](context/Tech%20Baseline.md).
 
